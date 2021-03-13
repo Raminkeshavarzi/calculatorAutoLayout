@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     
 //Sum
     @IBAction func sumFunction(_ sender: Any) {
-        let rs = result
+        let rs = result + resultTwo
         print("I am from sumFunction => \(rs)")
         screen.text = "\(rs)"
     }
@@ -76,12 +76,14 @@ class ViewController: UIViewController {
         let finalRs = result + resultTwo
         screen.text = "\(finalRs)"
         
-        print ("I am final result from eqaul fun \(finalRs)")
+        print ("I am final result from equal function \(finalRs)")
     }
     
     //Reset Function
     @IBAction func resetFunction(_ sender: Any) {
         let rs = 0
+        result = 0
+        resultTwo = 0
         screen.text = "\(rs)"
     }
 }
