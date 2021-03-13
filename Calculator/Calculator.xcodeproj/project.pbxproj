@@ -10,9 +10,9 @@
 		F5DA40A825FD028900FD77B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA40A725FD028900FD77B2 /* AppDelegate.swift */; };
 		F5DA40AA25FD028900FD77B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA40A925FD028900FD77B2 /* SceneDelegate.swift */; };
 		F5DA40AC25FD028900FD77B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA40AB25FD028900FD77B2 /* ViewController.swift */; };
-		F5DA40AF25FD028900FD77B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA40AD25FD028900FD77B2 /* Main.storyboard */; };
 		F5DA40B125FD028900FD77B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DA40B025FD028900FD77B2 /* Assets.xcassets */; };
 		F5DA40B425FD028900FD77B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA40B225FD028900FD77B2 /* LaunchScreen.storyboard */; };
+		F5DA40BD25FD02F000FD77B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DA40BC25FD02F000FD77B2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		F5DA40A725FD028900FD77B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5DA40A925FD028900FD77B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F5DA40AB25FD028900FD77B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5DA40AE25FD028900FD77B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5DA40B025FD028900FD77B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DA40B325FD028900FD77B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DA40B525FD028900FD77B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5DA40BC25FD02F000FD77B2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../../Downloads/Calculator-Layout-iOS13/Calculator Layout iOS13/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				F5DA40A725FD028900FD77B2 /* AppDelegate.swift */,
 				F5DA40A925FD028900FD77B2 /* SceneDelegate.swift */,
 				F5DA40AB25FD028900FD77B2 /* ViewController.swift */,
-				F5DA40AD25FD028900FD77B2 /* Main.storyboard */,
+				F5DA40BC25FD02F000FD77B2 /* Main.storyboard */,
 				F5DA40B025FD028900FD77B2 /* Assets.xcassets */,
 				F5DA40B225FD028900FD77B2 /* LaunchScreen.storyboard */,
 				F5DA40B525FD028900FD77B2 /* Info.plist */,
@@ -126,7 +126,7 @@
 			files = (
 				F5DA40B425FD028900FD77B2 /* LaunchScreen.storyboard in Resources */,
 				F5DA40B125FD028900FD77B2 /* Assets.xcassets in Resources */,
-				F5DA40AF25FD028900FD77B2 /* Main.storyboard in Resources */,
+				F5DA40BD25FD02F000FD77B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5DA40AD25FD028900FD77B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5DA40AE25FD028900FD77B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5DA40B225FD028900FD77B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
